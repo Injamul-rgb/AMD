@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+*{margin: 0;
+   padding:0; 
+}
+header{
+   border-top: 1px solid #48484B;
+   width: 100%;
+   height:145px;
+   background: black;
+   position: sticky;
+   top: 0px;
+}
+section{
+   position: relative;
+   z-index: -1;
+}
+.amdimg{
+   width: 280px;
+   padding: 40px 0px 11px 56px;
+   float: left;
+}
+.amdimg a img{
+   max-width: 100%;
+   transition: .3s;
+   transition-timing-function: ease-in-out;
+}
+.amdimg a img:hover{
+   transform: scale(1.05)
+}
+.headderLogos {
+   margin-right: 40px;
+   margin-top: 35px;
+   margin-right: 60px;
+   color: white;
+   float: right
+}
+.headderLogos i{
+   font-size: 73px;
+   padding-right: 80px;
+   transition: .3s;
+   transition-timing-function: ease-in-out;
+}
+.headderLogos i:hover{
+   transform: scale(1.05);
+   cursor: pointer;
+}
+.headderLogos i:last-child{
+   padding-right: 0;
+}
+.wellcome{
+   margin-top: 9px;
+   background: url(wellcome.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: 2760px;
+}
+.container{
+   width: 780px;
+   margin: auto;
+   overflow: hidden;
+   font-family: 'Oswald', sans-serif;
+}
+.wellcomebanner{
+   width: 100%;
+   display: grid;
+   place-items: center;
+   padding-bottom: 40px;
+   margin-top: 175px;
+}
+.wellcomebanner img{
+   max-width: 100%;
+   transform: scale(1.2)
+}
+.wellcomenote{
+   color: white;
+}
+.wellcomebackground{
+   background: #000000BD;
+   width:100%;
+   height: 2070px;
+}
+.wellcomenote {
+   font-weight: 500;
+   font-size: 52px;
+   text-align: center;
+   padding: 130px 77px 0px 77px;
+}
+.wellcomenote h2{
+   line-height: 110px;
+   padding-bottom: 56px;
+}
+.wellcomenote span{
+   word-spacing: 1px;
+   font-size: 65px;
+   font-weight: 200;
+   line-height: 18px;
+}
+.wellcomenote p {
+   font-size: 62px;
+   font-weight: 200;
+   line-height: 110px;
+   padding-top: 72px;
+   padding-bottom: 142px;
+}
+.wellcomebutton{
+   width: 400px;
+   margin: auto;
+}
+.wellcomebutton button{
+   margin-left: 11.5%;
+   margin-bottom: 96px;
+   border: 5px solid white;
+   padding: 33px 44px 33px 44px;
+   background: #00000000;
+   font-family: 'Oswald', sans-serif;
+   color: white;
+   font-size: 40px;
+   font-weight: 700;
+   letter-spacing: 4px;
+}
+
+.wellcomebutton button:last-child{
+   margin-left: 16%!important;
+}
+.productImgContainer{
+   margin-top: 112px;
+}
+.productsnote{
+   margin-bottom: 110px;
+}
+.productsnote h1{
+   margin-top: 35px;
+   font-size: 71px;
+   font-weight: 600;
+   padding-left: 0px;
+   margin-bottom: 18px;
+}
+.two{
+   font-size: 40px!important;
+}
+.productsnote h1 sup{
+   font-size: 25px;
+}
+.productsnote span{
+   font-weight: 400;
+   font-size: 42px;
+   word-spacing: 2px;
+   letter-spacing: 2px;
+   line-height: 54px;
+   margin-left: 5px;
+   
+}
+.productsnote span a{
+   color: #0070C9;
+   text-decoration: none;
+}
+.productsnote span a sup{
+   font-size: 22px!important;
+}
+.findretailerbutton{
+   margin-bottom: 55px;
+}
+.findretailerbutton button{
+   margin-left: 5px;
+   font-weight: 700;
+   background: transparent;
+   border: 5px solid black;
+   font-size: 40px;
+   padding: 33px 44px 33px 44px;
+   font-family: 'Oswald', sans-serif;
+   letter-spacing: 4px;
+}
+.forcedlearnmorebutton{
+   width: 350px;
+   
+}
+.forcedlearnmorebutton button{
+   
+   border: 5px solid black;
+   padding: 33px 44px 33px 44px;
+   background: #00000000;
+   font-family: 'Oswald', sans-serif;
+   color: black;
+   font-size: 40px;
+   font-weight: 700;
+   letter-spacing: 4px;
+}
+.tinyimage{
+   padding-top: 80px;
+}
+.serverproducts{
+   background: #636466;
+   color: white;
+   margin-top: 110px;
+}
+ .singleserverproducts div:last-child button{
+    border-color: white;
+    color: white;
+}
+.serverproducts{
+   padding-top: 46px;
+   padding-bottom: 220px;
+   margin-bottom: 67px;
+}
+.serverproductsimg{
+   padding-top: 90px;
+   padding-bottom: 80px;
+}
+.serverproductsnote h1{
+   font-size: 69px;
+   font-weight: 600;
+   padding-left: 0px;
+   margin-bottom: 18px;
+   position: relative;
+   padding-bottom: 15px;
+}
+.trademark{
+   font-size: 56px;
+   position: absolute;
+   top: -9px;
+}
+.trademark2 {
+   font-size: 56px;
+   position: absolute;
+   top: -26px;
+}
+.serverproductsnote span{
+   font-weight: 300;
+   font-size: 42px;
+   word-spacing: 2px;
+   letter-spacing: 3px;
+   line-height: 50px;
+   position: relative;
+}
+.serverproductsnote span sup{
+   position: absolute;
+   font-size: 20px;
+   top: 48px;
+   left: 624px;
+}
+.serverproductsnote{
+   padding-bottom: 115px;
+}
+.Esport{
+   height: 1660px;
+   width: 100%;
+   background: url(662026-computer-color-bg-1920x800.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-bottom: 65px;
+   
+}
+.Esportimg{
+   margin-top: 300px;
+   background: #3B46C0E8;
+   width: 710px;
+   height: 287px;
+   margin: auto;
+   position: relative;
+   overflow: hidden;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Esportimg img{
+   transform: scale(1.2);
+   position: absolute;
+   left: 50px;
+   top: 25px;
+}
+.EsportBackround{
+   padding-top: 30px; 
+   width: 775px;
+   margin-top: 100px;
+   background: #FFFFFFDB;
+   height: 1395px;
+}
+.EsportNotes h1{
+   padding-top: 100px;
+   font-size: 79px;
+   font-weight: 500;
+   padding-left: 58px;
+   padding-right: 58px;
+   margin-bottom: 18px;
+   padding-bottom: 15px;
+   line-height: 105px;
+}
+.EsportNotes h3{
+   font-weight: 300;
+   font-size: 62px;
+   word-spacing: 2px;
+   letter-spacing: 3px;
+   line-height: 85px;
+   padding-left: 58px;
+   padding-right: 58px;
+}
+.EsportNotes{
+   padding-bottom: 141px;
+}
+.EsportBackround div:last-child{
+   margin-left: 58px;
+}
+.gameshowcase{
+   background: url(10286-xfxrx550-background-1920x600.png);
+   background-size: cover;
+   background-repeat: repeat;
+   background-position: center;
+   width: 100%;
+   height: 3840px;
+}
+.gameimg{
+   width: 755px;
+   margin: auto;
+   margin-top: 140px;
+}
+.gameimg img{
+   max-width: 100%;
+}
+.gamenotes {
+   margin-top: 60px;
+   color: white;
+   padding-left: 8px;
+}
+.gamenotes h1{
+   font-weight: 500;
+   font-size: 75px;
+   line-height: 92px;
+}
+.gamenotes {
+   position: relative;
+}
+.gamenotes h1 span{
+   position: absolute;
+   font-size: 35px;
+   top: -22px;
+   left: 525px;
+}
+.gamenotes h3{
+   font-weight: 300;
+   font-size: 41px;
+   line-height: 50px;
+   padding-top: 45px;
+}
+.singlegame div:last-child button{
+   color: white;
+   border-color: white;
+}
+.singlegame div:last-child{
+   margin-top: 120px;
+   margin-bottom: 90px;
+}
+.RasidentTM{
+   position: relative;
+}
+.gamenotes h1 sup{
+   font-size: 22px;
+}
+.footnotes{
+   margin-top: 119px;
+   margin-bottom: 122px;
+}
+.footnotes h1{
+   font-size: 42px;
+   font-weight: 600;
+   letter-spacing: -2px;
+}
+.footnotes{
+   position: relative;
+}
+.footI{
+   position: relative;
+}
+.footI i{
+   position: absolute;
+   top: 118px;
+   left: 24px;
+   font-size: 65px;
+}
+footer{
+   width: 100%;
+   height: 895px;
+   background: black;
+   padding-top: 120px;
+}
+.commoninfo{
+   width: 691.5px;
+   margin: auto;
+}
+.commoninfo h3{
+   font-size: 38px;
+   color: white;
+   font-family: 'Noto Sans JP', sans-serif;
+   font-weight: 400;
+}
+.commoninfo h3:last-child{
+   width: 445px;
+   margin: auto;
+}
+.commoninfo h3:first-child{
+   padding-bottom: 12px;
+}
+.links{
+   margin-top: 28px;
+   width: 100%;
+   padding: 55px 0px 55px 0px;
+   border-top: 5px solid #636466;
+   border-bottom: 5px solid #636466;
+}
+.links div i{
+   font-size: 65px;  
+   color: white;
+   margin-right: 48px;
+}
+.links div i:last-child{
+   margin-right: 0px!important;
+}
+.links div{
+   width: 780px;
+   margin: auto;
+}
+.footercontainer{
+   width: 900px;
+   margin: auto;
+   overflow: hidden;
+}
+.uncommoninfo{
+   font-size: 35.5px;
+   color: white;
+   font-family: 'Noto Sans JP', sans-serif;
+   font-weight: 400;
+   padding-bottom: 31px;
+}
+.uncommoninfo span{
+   padding: 30px 0px 26px 0px;
+   display: block;
+   width: 600px;
+   margin: auto;
+
+}
+.uncommoninfo div{
+   width: 843px;
+   margin: auto;
+   word-spacing: 3px; 
+   display: block;
+}
+.uncommoninfo div div a{
+   text-decoration: none;
+   color: white;
+   word-spacing: 2px;
+   line-height: 70px;
+}
+.uncommoninfo div div:last-child {
+   margin: auto;
+   width: 276px;
+}
+.footerlinks{
+   border-top: 3px solid #FFFFFF;
+   height: 134px;
+   position: fixed;
+   bottom: -3px;
+}
+.footerlinks div{
+   width: 245px;
+   height: 134px;
+}
+.footerlinks div i{
+   color: white;
+   margin-top: 14%;
+   margin-left: 39%;
+   font-size: 60px;
+}
+.footerlinks div:nth-child(2) i{
+   margin-left: 103px;
+}
+.footerlinks div:nth-child(4) i {
+   margin-left: 99px;
+}
+.footerlinks div:first-child{
+   background: #4285F4;
+   float: left;
+}
+.footerlinks div:nth-child(2){
+   background: #3B5998;
+   float: left;
+}
+.footerlinks div:nth-child(3){
+   background: #1DA1F2;
+   float: left;
+}
+.footerlinks div:last-child{
+   background: #FF6550;
+   float: right;
+}
